@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\Estudos\\2021 - Udemy\\ASP.NET Core\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
+    "C:\\MyFiles\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\Estudos\\2021 - Udemy\\ASP.NET Core\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
+    "C:\\MyFiles\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Estudos\\2021 - Udemy\\ASP.NET Core\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectUniqueName": "C:\\MyFiles\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
         "projectName": "BookListRazor",
-        "projectPath": "D:\\OneDrive\\Estudos\\2021 - Udemy\\ASP.NET Core\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectPath": "C:\\MyFiles\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Estudos\\2021 - Udemy\\ASP.NET Core\\BookListRazor\\BookListRazor\\obj\\",
+        "outputPath": "C:\\MyFiles\\source\\repos\\BookListRazor\\BookListRazor\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "framework": "netcoreapp3.0",
             "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
@@ -34,10 +39,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "framework": "netcoreapp3.0",
           "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
@@ -65,7 +77,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -95,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
